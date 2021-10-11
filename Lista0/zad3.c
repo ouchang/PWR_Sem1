@@ -7,4 +7,6 @@ int main() {
 
     f = 1.8 * c + 32;
     printf("Temp. w stopnich Fahrenheita: %.2f\n", f);
+
+    return 0;
 }

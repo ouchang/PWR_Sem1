@@ -13,4 +13,6 @@ int main() {
     iloraz = a/b;
 
     printf("Suma: %.2f, roznica: %.2f, iloczyn: %.2f, iloraz: %.2f\n", suma, roz, iloczyn, iloraz);
+
+    return 0;
 }
