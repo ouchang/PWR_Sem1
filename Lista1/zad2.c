@@ -14,11 +14,11 @@ int main() {
         printf("BRAK ROZWIAZAN RZECZYWISTYCH\n");
     else if(delta == 0) {// 1 rozw.
         x1 = (-1*b)/(2*a);
-        printf("%f\n", x1);
+        printf("%.2f\n", x1);
     } else { // 2 rozw.
-        x1 = (-1*b - sqrt(delta) / (2*a)); //problem z sqrt i funk. pow
-        x2 = (-1*b + sqrt(delta) / (2*a)); //
-        printf("%f %f\n", x1, x2);
+        x1 = (-1*b - sqrt(delta)) / (2*a); //problem z sqrt i funk. pow
+        x2 = (-1*b + sqrt(delta)) / (2*a); //
+        printf("%.2f %.2f\n", x1, x2);
     }
 
     return 0;
