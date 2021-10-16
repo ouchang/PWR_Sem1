@@ -27,7 +27,7 @@ int main() {
 
         ulam = licznik / (n*n);
 
-        printf("%d;%.2f\n", n, ulam);
+        printf("%d;%f\n", n, ulam);
     }
 
     return 0;
