@@ -1,3 +1,5 @@
+//Aleksandra Zaremba
+
 #include <stdio.h>
 
 int main() {
@@ -5,13 +7,19 @@ int main() {
     double sr=0.0;
 
     scanf("%d", &n);
+
+    if(n == 0) {
+        printf("NIE MOZNA POLICZYC ŚREDNIEJ!\n");
+        return 0;
+    }
+
     for(int i=0; i<n; i++) {
         scanf("%d", &x);
         sr += x;
     }
 
     sr /= n;
-    printf("%.2f\n", sr);
+    printf("%.4f\n", sr);
 
     return 0;
 }

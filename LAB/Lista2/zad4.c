@@ -1,3 +1,5 @@
+//Aleksandra Zaremba
+
 #include <stdio.h>
 #include <math.h>
 
@@ -11,5 +13,5 @@ int main() {
         w *= p;
     }
 
-    printf("%.2f\n", w);
+    printf("%lf\n", w);
 }

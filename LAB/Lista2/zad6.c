@@ -1,10 +1,12 @@
+//Aleksandra Zaremba
+
 #include <stdio.h>
 
 int S[1001]; //tablica z sumami dzielnikow danych liczb
 
 int main() {
     int suma=1; //suma dzielnikow danej liczby
-    int k; //alktualnie analizowany dzielnik danej liczby
+    int k; //aktualnie analizowany dzielnik danej liczby
 
     //znajdowanie liczb dokonalych
     printf("Liczby doskonale:\n");
@@ -20,7 +22,7 @@ int main() {
             }
         }
 
-        //gdyby pierwiastek danej liczby i byl l.calkowita
+        //gdyby pierwiastek danej liczby i byl l. calkowita
         if(k*k == i)
             suma -= k; //wowczas policzylismy o jeden dzielnik za duzo
 
@@ -34,11 +36,13 @@ int main() {
 
     //czy zaprzyjaznione
     printf("Liczby zaprzyjaznione:\n");
-    for(int i=2; i<1000; i++) {
-        suma = S[i];
-        if(suma < 1000)
-            if((i == S[suma]) && (i < suma))
-                printf("(%d;%d)\n", i, suma);
+
+    int m;
+    for(int n=2; n<1000; n++) {
+        m = S[n];
+        if(m < 1000)
+            if((n == S[m]) && (n < m))
+                printf("(%d;%d)\n", n, m);
     }
     
     return 0;
