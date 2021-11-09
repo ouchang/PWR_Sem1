@@ -34,7 +34,7 @@ int main() {
         nowe_pary = 0;
 
         ulam = licznik / ((double) (n*n));
-        printf("%d;%f\n", n, ulam);
+        printf("%d;%lf\n", n, ulam);
     }
 
     return 0;

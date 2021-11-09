@@ -19,7 +19,7 @@ int main() {
     }
 
     sr /= n;
-    printf("%.4f\n", sr);
+    printf("%lf\n", sr);
 
     return 0;
 }
