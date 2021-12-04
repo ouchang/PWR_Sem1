@@ -9,8 +9,8 @@ int main() {
     double st=1000.0;
 
     for(int i=1; i<=1000; i++) {
-        p = pow(i,1.0/st); //sqrt^1000(1) * sqrt^1000(2) * ... sqrt^1000(1000) = sqrt^1000(1000!)
-        w *= p;
+        p = pow(i,1.0/st); 
+        w *= p; //sqrt^1000(1) * sqrt^1000(2) * ... sqrt^1000(1000) = sqrt^1000(1000!)
     }
 
     printf("%lf\n", w);

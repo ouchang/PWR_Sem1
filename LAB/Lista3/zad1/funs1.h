@@ -1,1 +1,1 @@
-bool palindrom(char s[], int n);
+bool palindrom(char s[]);

@@ -10,11 +10,7 @@ int main() {
 
     scanf("%s", str);
 
-    while(str[len] != 0) {
-        len++;
-    }
-
-    wynik = palindrom(str, len);
+    wynik = palindrom(str);
 
     if(wynik == true)
         printf("To jest palindrom\n");

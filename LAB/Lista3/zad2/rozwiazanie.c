@@ -7,7 +7,7 @@ double rozwiazanie(double a, double b, double eps) {
     else if(f(b) == 0.0)
         return b;
 
-    while(b-a > eps) {
+    while(b-a > 2*eps) { //wcześniej: b-a > eps
         double mid = (a+b)/2;
 
         if(f(mid) == 0.0)
