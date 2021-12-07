@@ -2,11 +2,10 @@
 #include <stdbool.h>
 #include "funs1.h"
 
-char str[10000];
+char str[10000]; //wypełniona zerami
 
 int main() {
     bool wynik;
-    int len=0;
 
     scanf("%s", str);
 
