@@ -1,2 +1,2 @@
 # Ouchang's codes for IT labs
-_Politechnika Wrocławska_ 
+_Wrocław University of Science and Technology_ 
