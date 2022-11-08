@@ -1,0 +1,1 @@
+bool palindrom(char s[]);
